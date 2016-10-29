@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Image Page</title>
+</head>
+<body>
+<form action="/" method="post" enctype="multipart/form-data">
+    <label for="image-file">Image: </label>
+    <input type="file" name="image" id="image-file">
+    <label for="image-type">I want my file to be private: </label>
+    <input type="checkbox" name="privateImageCheckBox" value="privateCheckBox" id="image-type">
+    <input type="submit" value="Upload">
+</form>
+<button onclick="goBack()">Back</button>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
