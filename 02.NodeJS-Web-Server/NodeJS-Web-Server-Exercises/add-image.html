@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Image Page</title>
+</head>
+<body>
+<form action="/" method="post">
+    <label for="image-title">Image title: </label>
+    <input type="text" name="title" id="image-title">
+    <label for="image-url">Image url: </label>
+    <input type="url" name="fileUrl" id="image-url">
+    <input type="submit" value="Upload">
+</form>
+<button onclick="goBack()">Back</button>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
